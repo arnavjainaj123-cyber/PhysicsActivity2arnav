@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Applications | Industry, Medicine, & Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <style>
+        :root {
+            --neon-blue: #00f3ff;
+            --neon-red: #ff003c;
+            --dark-bg: #0a0a0a;
+            --panel-bg: #151515;
+            --text-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #000, #1a1a1a);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--neon-blue);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #fff;
+            text-shadow: 0 0 10px var(--neon-blue);
+        }
+
+        header p {
+            color: var(--neon-blue);
+            letter-spacing: 2px;
+            margin-top: 10px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Sections */
+        .section {
+            background: var(--panel-bg);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 5px solid var(--neon-blue);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .section h2 {
+            color: var(--neon-blue);
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        /* Grid for Cards */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #222;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: #2a2a2a;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin-top: 0;
+            color: #fff;
+        }
+
+        /* Medical Section specific style */
+        .medical-section {
+            border-left-color: var(--neon-red);
+        }
+        .medical-section h2 {
+            color: var(--neon-red);
+            text-shadow: 0 0 5px var(--neon-red);
+        }
+
+        /* QR Section */
+        .qr-section {
+            text-align: center;
+            padding: 40px;
+            background: #000;
+            border-top: 1px solid #333;
+        }
+
+        #qrcode {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            padding: 15px;
+            background: white;
+            width: fit-content;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Laser Application</h1>
+        <p>Light Amplification by Stimulated Emission of Radiation</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>What is a Laser Application?</h2>
+            <p>A Laser is an optical device that generates intense beam of coherent monochromatic  light by stimulated emission of radiation.
+
+Laser light is different from an ordinary light. It has various unique properties such as coherence, monochromacity, directionality, and high intensity. Because of these unique properties, lasers are used in various applications.</p>
+
+<h1>The most significant applications of lasers include:</h1>
+
+<p>Lasers in medicine</p>
+<p>Lasers in communications</p>
+<p>Lasers in industries
+<p>Lasers in science and technology
+<p>Lasers in military
+
+<h1>Lasers in Medicine</h1>
+<p>1.Lasers are used for bloodless surgery.
+<p>2.Lasers are used to destroy kidney stones.
+<p>3.Lasers are used in cancer diagnosis and therapy.
+<p>4.Lasers are used for eye lens curvature corrections.
+<p>5.Lasers are used in fiber-optic endoscope to detect ulcers in the intestines.
+<p>6.The liver and lung diseases could be treated by using lasers.
+<p>7.Lasers are used to study the internal structure of microorganisms and cells.
+<p>8.Lasers are used to produce chemical reactions.
+<p>9.Lasers are used to create plasma.
+<p>10.Lasers are used to remove tumors successfully.
+<p>11.Lasers are used to remove the caries or decayed portion of the teeth.
+<p>12.Lasers are used in cosmetic treatments such as acne treatment, cellulite and hair removal.
+
+<h1>Lasers in Communications</h1>
+<p>1.Laser light is used in optical fiber communications to send information over large distances with low loss.
+<p>2.Laser light is used in underwater communication networks.
+<p>3.Lasers are used in space communication, radars and satellites.
+
+<h1>Lasers in Industries</h1>
+<p>1.Lasers are used to cut glass and quartz.
+<p>2.Lasers are used in electronic industries for trimming the components of Integrated Circuits (ICs).
+<p>3.Lasers are used for heat treatment in the automotive industry.
+<p>4.Laser light is used to collect the information about the prefixed prices of various products in shops and business establishments from the bar code printed on the product.
+<p>5.Ultraviolet lasers are used in the semiconductor industries for photolithography. Photolithography is the method used for manufacturing printed circuit board (PCB) and microprocessor by using ultraviolet light.
+<p>6.Lasers are used to drill aerosol nozzles and control orifices within the required precision.
+
+<h1>Lasers in Science and Technology</h1>
+<p>1.A laser helps in studying the Brownian motion of particles.
+<p>2.With the help of a helium-neon laser, it was proved that the velocity of light is same in all directions.
+<p>3.With the help of a laser, it is possible to count the number of atoms in a substance.
+<p>4.Lasers are used in computers to retrieve stored information from a Compact Disc (CD).
+<p>5.Lasers are used to store large amount of information or data in CD-ROM.
+<p>6.Lasers are used to measure the pollutant gases and other contaminants of the atmosphere.
+<p>7.Lasers helps in determining the rate of rotation of the earth accurately.
+<p>8.Lasers are used in computer printers.
+<p>9.Lasers are used for producing three-dimensional pictures in space without the use of lens.
+<p>10.Lasers are used for detecting earthquakes and underwater nuclear blasts.
+<p>11.A gallium arsenide diode laser can be used to setup an invisible fence to protect an area.
+
+<h1>Lasers in Military</h1>
+<p>1.Laser range finders are used to determine the distance to an object.
+<p>2.The ring laser gyroscope is used for sensing and measuring very small angle of rotation of the moving objects.
+<p>3.Lasers can be used as a secretive illuminators for reconnaissance during night with high precision.
+<p>4.Lasers are used to dispose the energy of a warhead by damaging the missile.
+<p>5.Laser light is used in LIDAR’s to accurately measure the distance to an object.</p>
